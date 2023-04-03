@@ -1,12 +1,362 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio | Ivan Bhagaskara K</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>HALOOOO</h1>
+    <!-- NAVBAR -->
+    <div class="    container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ivan Bhagaskara K</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="selectMenu()">Home</a></li>
+                    <li><a href="#about" onclick="selectMenu()">About</a></li>
+                    <li><a href="#skills" onclick="selectMenu()">Skills</a></li>
+                    <li><a href="#resume" onclick="selectMenu()">Resume</a></li>
+                    <li><a href="#projects" onclick="selectMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="selectMenu()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Section home -->
+    <section id="home" class="home">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="img/ivan.png" alt="">
+            </div>
+            <h1>Ivan Bhagaskara K</h1>
+            <h2>Android Developer</h2>
+            <div class="network">
+                <a href="https://www.facebook.com/ivan.bhagaskara.1"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/BhagaskaraIvan"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/Ivanbhagaskara2608"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ivan-bhagaskara-kartasasmita/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section About -->
+    <section id="about" class="about">
+        <div class="content-Section">
+            <h2>About</h2>
+            <p><span>Hi, I'm Ivan Bhagaskara K.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus atque, repudiandae officia nihil asperiores magnam odit. Corporis est, eligendi ad quaerat nemo debitis animi explicabo in saepe ipsa porro magni. </p>
+
+            <div class="row">
+                <!-- Personal Data -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            26-08-2003
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +62 812-3811-8075
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ivanbhagas2003@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Sleman, D.I. Yogyakarta
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-interests">
+                        <div class="interests">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Movie</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-mobile"></i>
+                            <span>Mobile Development</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Football</span>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Section SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content-Section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Kotlin</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Coreldraw</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section resume -->
+    <section id="resume" class="resume">
+        <div class="content-Section">
+            <h2>Resume</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item left">
+                        <h4>Network Engineering</h4>
+                        <span class="casa">SMK N 1 Seyegan</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item left">
+                        <h4>S.Kom in Informatics</h4>
+                        <span class="casa">Universitas Teknologi Yogyakarta</span>
+                        <span class="fecha">2021 - Present</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Experience</h3>
+                    <div class="item der">
+                        <h4>Internship</h4>
+                        <span class="casa">DISKOMINFO Yogyakarta</span>
+                        <span class="fecha">Jan 2020 - Mar 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Certified Training</h4>
+                        <span class="casa">MikroTik Certified Network Associate</span>
+                        <span class="fecha">2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Certified Training</h4>
+                        <span class="casa">Data Engineering Professional Certification RapidMiner</span>
+                        <span class="fecha">2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section projects -->
+    <section id="projects" class="projects">
+        <div class="content-Section">
+            <h2>projects</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>RISFUND</h3>
+                        <p>E-Wallet Android App</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>CAMA</h3>
+                        <p>Android App</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>AKRAP APP</h3>
+                        <p>Organization Android App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="contact">
+        <div class="content-Section">
+            <h2>Contact</h2>
+            <div class="row">
+                <!-- Form -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Sleman, D.I.Yogyakarta
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +62 812-3811-8075
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                ivanbhagas2003@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="network">
+            <a href="https://www.facebook.com/ivan.bhagaskara.1"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/BhagaskaraIvan"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/Ivanbhagaskara2608"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ivan-bhagaskara-kartasasmita/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
