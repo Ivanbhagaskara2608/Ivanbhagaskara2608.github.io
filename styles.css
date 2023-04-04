@@ -6,7 +6,7 @@
     padding: 0;
 }
 html{
-    /* me permite deslizar cuando hago clic en los links del menu */
+    /* slide when I click on the menu links */
     scroll-behavior: smooth;
 }
 /* MENU */
@@ -55,7 +55,7 @@ html{
     cursor: pointer;
     display: none;
 }
-/* Section I N I C I O */
+/* Section HOME */
 .home{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img/fondo.jpg);
@@ -212,7 +212,7 @@ html{
 .about button:hover .overlay{
     width: 100%;
 }
-/* Section S K I L L S */
+/* Section SKILLS */
 .skills{
     background-color: #252A2E;
     color: #fff;
@@ -272,14 +272,14 @@ html{
     right: -15px;
     font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
+/* These classes will be added dynamically using javascript */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .htmlcss{
@@ -288,7 +288,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .photoshop{
