@@ -23,14 +23,14 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progress");
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("photoshop");
-        habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("drupal");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
+        habilidades[2].classList.add("python");
+        habilidades[3].classList.add("kotlin");
+        habilidades[4].classList.add("coreldraw");
+        habilidades[5].classList.add("communication");
+        habilidades[6].classList.add("teamwork");
+        habilidades[7].classList.add("creativity");
+        habilidades[8].classList.add("dedication");
+        habilidades[9].classList.add("project");
     }
 }
 
