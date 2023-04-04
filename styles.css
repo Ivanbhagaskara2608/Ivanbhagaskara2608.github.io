@@ -90,6 +90,7 @@ html{
     font-size: 15px;
     font-weight: normal;
 }
+/* fix it */
 .home .content-banner .network a{
     color: #fff;
     display: inline-block;
@@ -103,6 +104,7 @@ html{
     font-size: 20px;
     transition: .3s;
 }
+/* fix it */
 .home .content-banner .network a:hover{
     background-color: #1CB698;
 }
@@ -199,6 +201,13 @@ html{
     position: relative;
     z-index: 10;
 }
+.about button a{
+    color: #fff;
+    text-decoration: none;
+}
+/* .about button a:hover{
+    background-color: #1CB698;
+} */
 .about button .overlay{
     position: absolute;
     top: 0;
