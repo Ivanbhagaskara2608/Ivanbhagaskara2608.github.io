@@ -530,6 +530,10 @@ html{
 .projects .gallery .project .overlay:hover h3{
     margin-bottom: 0px;
 }
+.projects .gallery .project a{
+    color: #fff;
+    text-decoration: none;
+}
 /* Section contact */
 .contact{
     background-image: url(img/contact_bg.png);
@@ -607,6 +611,7 @@ html{
     list-style: none;
 }
 .contact .col .info ul li{
+    font-size: 13px;
     margin-bottom: 20px;
 }
 .contact .col .info ul li i{
