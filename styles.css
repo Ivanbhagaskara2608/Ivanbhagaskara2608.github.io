@@ -61,6 +61,7 @@ html{
     url(img/home_bg.jpg);
     background-size: cover;
     height: 120vh;
+    padding-top: 75px;
     color: #fff;
     display: flex;
     align-items: center;
