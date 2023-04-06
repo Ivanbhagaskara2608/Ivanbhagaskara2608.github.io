@@ -673,6 +673,9 @@ footer .above{
     }
 }
 @media screen and (max-width:700px){
+    .home{
+        height: 80vh;
+    }
     .about .row{
         display: block;
     }
@@ -715,5 +718,8 @@ footer .above{
     }
     .contact .row .col{
         width: 100%;
+    }
+    .contact .col iframe{
+        height: 300px;
     }
 }
