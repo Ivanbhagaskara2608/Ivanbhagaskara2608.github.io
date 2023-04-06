@@ -84,10 +84,11 @@ html{
 }
 .home .content-banner h1{
     margin-top: 40px;
+    margin-bottom: 10px;
     font-size: 38px;
     font-family: 'Righteous';
 }
-.home .content-banner h2{
+.home .content-banner h2 span{
     color: #0F52BA;
     margin-top: 10px;
     font-size: 20px;
@@ -102,12 +103,12 @@ html{
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 30px 5px;
+    margin: 20px 5px;
     font-size: 20px;
     transition: .3s;
 }
 .home .content-banner .network a:hover{
-    background-color: #0F52BA	;
+    background-color: #0F52BA;
 }
 .about{
     background-color: #1e2326;
@@ -413,6 +414,7 @@ html{
 }
 .resume .row .item:hover{
     background-color: #0F52BA;
+    border: #0F52BA;
 }
 .resume .row .item a{
     color: #fff;

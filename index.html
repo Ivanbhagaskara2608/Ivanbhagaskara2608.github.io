@@ -38,7 +38,7 @@
                 <img src="img/ivan.png" alt="">
             </div>
             <h1>Ivan Bhagaskara K</h1>
-            <h2>Android Developer</h2>
+            <h2><span class="auto-type"></span></h2>
             <div class="network">
                 <a href="https://www.facebook.com/ivan.bhagaskara.1"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://twitter.com/BhagaskaraIvan"><i class="fa-brands fa-twitter"></i></a>
@@ -355,6 +355,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- this script used for send message to my spreadsheet -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw_eYSsrW6NEg7KuwHZS8S_njBJHOqCgsIkvQOBycpNUx9lPECufGbQoMdCt0NttxE/exec'
         const form = document.forms['contact-me']
@@ -367,6 +368,16 @@
                 alert('Success! Your message has been sent.')
             })
             .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <!-- this script used for auto typing text\ -->
+      <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+      <script type="text/javascript">
+        var typed = new Typed('.auto-type',{
+          strings: ["Web Developer", "Android Developer", "Tech Enthusiast"],
+          loop: true,
+          typeSpeed: 70,
+          backSpeed: 70
         })
       </script>
 </body>
