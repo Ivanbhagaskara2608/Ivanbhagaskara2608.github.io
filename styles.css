@@ -88,6 +88,7 @@ html{
     font-family: 'Righteous';
 }
 .home .content-banner h2{
+    color: #0F52BA;
     margin-top: 10px;
     font-size: 20px;
     font-weight: normal;
@@ -394,6 +395,7 @@ html{
     padding: 0 20px;
 }
 .resume .row .col h3{
+    color: #0F52BA;
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
@@ -410,19 +412,26 @@ html{
     background-color: #252A2E;
     position: relative;
 }
+/* fix it */
+.resume .row .item:hover{
+    background-color: #0F52BA;
+}
+.resume .row .item a{
+    color: #fff;
+    text-decoration: none;
+}
 .resume .row .item h4{
     font-size: 20px;
     margin-bottom: 10px;
 }
 .resume .row .item .agency{
-    color: #0F52BA	;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .resume .row .item .date{
     display: block;
-    color: #0F52BA	;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 .resume .row .item p{
@@ -643,6 +652,9 @@ footer .network a{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+}
+footer .network a:hover{
+    background-color: #0F52BA;
 }
 footer .above{
     display: block;
