@@ -605,8 +605,9 @@ html{
 .contact button:hover .overlay{
     width: 100%;
 }
-.contact .col img{
+.contact .col iframe{
     width: 100%;
+    height: 100%;
 }
 .contact .col .info{
     position: absolute;
