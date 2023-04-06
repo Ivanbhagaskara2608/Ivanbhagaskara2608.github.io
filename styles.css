@@ -395,7 +395,6 @@ html{
     padding: 0 20px;
 }
 .resume .row .col h3{
-    color: #0F52BA;
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
@@ -412,7 +411,6 @@ html{
     background-color: #252A2E;
     position: relative;
 }
-/* fix it */
 .resume .row .item:hover{
     background-color: #0F52BA;
 }
@@ -608,27 +606,6 @@ html{
 .contact .col iframe{
     width: 100%;
     height: 100%;
-}
-.contact .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
-    padding: 20px;
-    max-width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.contact .col .info ul{
-    list-style: none;
-}
-.contact .col .info ul li{
-    font-size: 13px;
-    margin-bottom: 20px;
-}
-.contact .col .info ul li i{
-    color: #0F52BA	;
-    display: inline-block;
-    margin-right: 20px;
 }
 footer{
     background-color: #252A2E;
