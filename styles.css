@@ -88,7 +88,7 @@ html{
     font-size: 38px;
     font-family: 'Righteous';
 }
-.home .content-banner h2 span{
+.home .content-banner span{
     color: #0F52BA;
     margin-top: 10px;
     font-size: 20px;
@@ -425,7 +425,7 @@ html{
     margin-bottom: 10px;
 }
 .resume .row .item .agency{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     display: block;
 }
