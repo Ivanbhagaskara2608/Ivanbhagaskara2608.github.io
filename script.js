@@ -25,7 +25,7 @@ function effectSkills(){
         skillsClass[1].classList.add("htmlcss");
         skillsClass[2].classList.add("python");
         skillsClass[3].classList.add("kotlin");
-        skillsClass[4].classList.add("coreldraw");
+        skillsClass[4].classList.add("php");
         skillsClass[5].classList.add("communication");
         skillsClass[6].classList.add("teamwork");
         skillsClass[7].classList.add("creativity");
