@@ -319,7 +319,7 @@ html{
 
 .skills .skill .php{
     width: 0%;
-    animation: 2s coreldraw forwards;
+    animation: 2s php forwards;
 }
 @keyframes php {
     0%{width: 0%;}
